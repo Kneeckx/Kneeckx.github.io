@@ -1,3 +1,5 @@
+<!--Author: Nicolas Chiasson, 000367862.
+    Date: 2024/03/03-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,6 +13,9 @@
     </style>
 </head>
 <body>
+    <div id="folio-header">
+        <img src="banner.jpg" alt="Tech Banner Head" width="100%">
+    </div>
     <div id="folio-body">
         <div id="statement" class="container text-center mt-4">
             <h1>My Name is Nick Chiasson and I'm a Software Development Student</h1>
@@ -95,54 +100,107 @@
         </div>
         <div id="projects" class="container text-center mt-4">
             <h3 class="sect-header">Projects</h3>
-            <div class="project-div mt-4">
-                <h4>JavaScript Memory Game</h4>
-                <p>Created a memory card game web application where you flip over two cards at a time to match the symbols on each card, you keep matching cards until all cards are matched</p>
+            <div class="row mt-4">
+                <div class="col mt-2">
+                    <img src="js.png" alt="JavaScript Logo" width="100" height="100">
+                </div>
+                <div class="col-lg-6" id="project-div">
+                    <h4>JavaScript Memory Game</h4>
+                    <p>Created a memory card game web application where you flip over two cards at a time to match the symbols on each card, you keep matching cards until all cards are matched</p>
+                </div>
+                <div class="col mt-2">
+                    <img src="js.png" alt="JavaScript Logo" width="100" height="100">
+                </div>  
             </div>
-            <div class="project-div mt-4">
-                <h4>2D Video Game (C#/Unity)</h4>
-                <p>Created a 2D 'frogger' like game called "Turtle Cross the Road" where you play as a turle who moves slowly across a map of moving obstacles</p>
+            <div class="row mt-4">
+                <div class="col mt-3">
+                    <img src="csharp.png" alt="C# Logo" width="90" height="100">
+                </div>
+                <div class="col-lg-6"  id="project-div">
+                    <h4>2D Video Game (C#/Unity)</h4>
+                    <p>Created a 2D 'frogger' like game called "Turtle Cross the Road" where you play as a turle who moves slowly across a map of moving obstacles</p>
+                </div>
+                <div class="col mt-3">
+                    <img src="unity.png" alt="C# Logo" width="95" height="100">
+                </div>
             </div>
-            <div class="project-div mt-4">
-                <h4>Software Testing</h4>
-                <p>Used MSTest methods covering all test to pass and test to fail possibilities for the code provided in a database application for user accounts and admin accounts.</p>
+            <div class="row mt-4">
+                <div class="col">
+                    <img src="mstest.png" alt="MSTest Logo" width="180" height="130">
+                </div>
+                <div class="col-lg-6" id="project-div">
+                    <h4>Software Testing</h4>
+                    <p>Used MSTest methods covering all test to pass and test to fail possibilities for the code provided in a database application for user accounts and admin accounts.</p>
+                </div>
+                <div class="col">
+                    <img src="mstest.png" alt="MSTest Logo" width="180" height="130">
+                </div> 
             </div>
-            <div class="project-div mt-4">
-                <h4>PHP Hangman</h4>
-                <p>Created a game of Hangman that tracks all user information using Sessions. This web application tracks the amount of guesses, hidden words, and current progress up until the user exits the web browser entirely</p>
+            <div class="row mt-4 mb-4">
+                <div class="col mt-5">
+                    <img src="php.png" alt="PHP Logo" width="120" height="70">
+                </div>
+                <div class="col-lg-6" id="project-div">
+                    <h4>PHP Hangman</h4>
+                    <p>Created a game of Hangman that tracks all user information using Sessions. This web application tracks the amount of guesses, hidden words, and current progress up until the user exits the web browser entirely</p>
+                </div>
+                <div class="col mt-4">
+                    <img src="html.png" alt="HTML Logo" width="100" height="100">
+                </div>
             </div>
         </div>
         <div id="resume" class="container text-center mt-4">
             <h3 class="sect-header">Resume</h3>
-            <div class="jobs mt-4">
-                <h4>Conestoga Cold Storage</h4>
-                <p>Postion: Order Assembler (August 2019 - Present)</p>
-                <ul>
-                    <li>Load and Unloads up to 30 pallets of product on to trucks using proper HACCP procedure</li>
-                    <li>Store product into racking using proper safety procedures</li>
-                    <li>Build Pallets of various different products efficiently</li>
-                    <li>Complete orders in teams by solving problems, organizing tasks, and assigning roles</li>
-                    <li>Licensed to operate Forklift, Reach Truck, and Pallet Jack</li>
-                </ul>
-            </div>
-            <div class="jobs mt-4">
-                <h4>Precision Fasteners</h4>
-                <p>Postion: Packer, Wash Machine Operator (May 2018 - August 2019)</p>
-                <ul>
-                    <li>Packed boxes and build up pallets of screws</li>
-                    <li>Proper heavy lifting and machine operating procedures</li>
-                </ul>
-            </div>
-            <div class="jobs mt-4">
-                <h4>Twice the Deal Pizza</h4>
-                <p>Postion: Delivery Service, Line Cook, Closer (September 2015 - May 2018)</p>
-                <ul>
-                    <li>Make food deliveries efficiently to each customer</li>
-                    <li>Take order over phone and over counter</li>
-                    <li>Prepare orders and restock ingredients</li>
-                    <li>Clean, document delivery earnings, and close the store</li>
-                </ul>
-            </div>
+                <div class="row">
+                    <div class="col-sm-9">
+                        <div class="jobs mt-4">
+                            <h4>Conestoga Cold Storage</h4>
+                            <p>Postion: Order Assembler (August 2019 - Present)</p>
+                            <ul>
+                                <li>Load and Unloads up to 30 pallets of product on to trucks using proper HACCP procedure</li>
+                                <li>Store product into racking using proper safety procedures</li>
+                                <li>Build Pallets of various different products efficiently</li>
+                                <li>Complete orders in teams by solving problems, organizing tasks, and assigning roles</li>
+                                <li>Licensed to operate Forklift, Reach Truck, and Pallet Jack</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col mt-5">
+                        <img src="icicle.png" alt="Conestoga Cold Storage Logo" width="100" height="150">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-9">
+                        <div class="jobs mt-4">
+                            <h4>Precision Fasteners</h4>
+                            <p>Postion: Packer, Wash Machine Operator (May 2018 - August 2019)</p>
+                            <ul>
+                                <li>Packed boxes and build up pallets of screws</li>
+                                <li>Proper heavy lifting and machine operating procedures</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col mt-5">
+                        <img src="screw.png" alt="Precision Fasteners Logo" width="150" height="100">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-9">
+                        <div class="jobs mt-4">
+                            <h4>Twice the Deal Pizza</h4>
+                            <p>Postion: Delivery Service, Line Cook, Closer (September 2015 - May 2018)</p>
+                            <ul>
+                                <li>Make food deliveries efficiently to each customer</li>
+                                <li>Take order over phone and over counter</li>
+                                <li>Prepare orders and restock ingredients</li>
+                                <li>Clean, document delivery earnings, and close the store</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col mt-5">
+                        <img src="pizza.png" alt="Twice the Deal Pizza Logo" width="150" height="150">
+                    </div>
+                </div>
             <div id="certifications" class="container text-center mt-4 mb-4">
                 <table class="table table-striped">
                     <thead>
@@ -178,6 +236,9 @@
             <p>GitHub: <a href="https://github.com/Kneeckx">https://github.com/Kneeckx</a></p>
         </div> 
         <div class="container text-center mt-4"></div>
+    </div>
+    <div id="folio-footer">
+        <img src="banner.jpg" alt="Tech Banner Foot" width="100%">
     </div>
 </body>
 </html>
