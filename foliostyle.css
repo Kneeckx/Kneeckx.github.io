@@ -1,28 +1,35 @@
-/* Set font and background color */
+/*Author: Nicolas Chiasson, 000367862.
+  Date: 2024/03/03*/
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
     margin: 10px;
 }
 
-/* Style headings */
-h1 {
-    font-size: 24px;
+h1, #statement {
+    font-size: 40px;
     font-weight: bold;
-    color: #333;
+    color: #252525;
     margin-bottom: 10px;
 }
 
-/* Style paragraphs */
+.sect-header {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    color: #252525;
+    margin-bottom: 10px;
+}
+
 p {
     font-size: 16px;
-    color: #666;
+    color: #252525;
     line-height: 1.5;
     margin-bottom: 20px;
 }
 
 #education, #projects, #contact {
-    background-color: rgb(230, 246, 153);
+    background-color: rgb(158, 235, 237);
     border-style: solid;
     border-width: 2px;
     border-radius: 10px;
@@ -30,7 +37,7 @@ p {
 }
 
 #statement, #skills, #resume {
-    background-color: rgb(180, 255, 195);
+    background-color: rgb(93, 176, 248);
     border-style: solid;
     border-width: 2px;
     border-radius: 10px;
@@ -39,28 +46,35 @@ p {
 
 #tech-skills, #soft-skills {
     border-style: dashed;
-    border-width: 1px;
+    border-width: 2px;
     border-radius: 10px;
     padding: 0px;
+    background-color: rgb(158, 235, 237);
+    border-color: rgb(15, 88, 127);
 }
 
-.project-div, .jobs {
+#project-div, .jobs {
     border-style: dashed;
-    border-width: 1px;
+    border-width: 2px;
     border-radius: 10px;
     margin: 10px;
+    padding: 10px;
+    background-color: rgb(158, 235, 237);
+    border-color: rgb(15, 88, 127);
 }
 
 #certifications {
     border-style: dashed;
-    border-width: 1px;
+    border-width: 2px;
     border-radius: 10px;
     padding: 0px;
+    background-color: rgb(158, 235, 237);
+    border-color: rgb(15, 88, 127);
 }
 
-#resume, #projects, #skills{
-    padding-left: 15%;
-    padding-right: 15%
+#skills{
+    padding-left: 7%;
+    padding-right: 7%
 }
 
 ul li {
